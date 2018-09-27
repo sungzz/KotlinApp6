@@ -25,7 +25,7 @@ class SportDatabase {
         sports?.add(Sport("Football", "Associaltion football, more commonly known as" +
                 " football or soccer, is a team sport played between" +
                 " two teams of eleven players with a spherical ball", R.drawable.football))
-        sports?.add(Sport("Judo", "udo was created as" +
+        sports?.add(Sport("Judo", "Judo was created as" +
                 " a physical, mental and moral pedagogy in Japan," +
                 " in 1882, by Jigoro Kano", R.drawable.jiujitsu))
 

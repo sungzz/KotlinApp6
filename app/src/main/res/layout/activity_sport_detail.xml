@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:background="@android:color/holo_orange_light"
     tools:context=".SportDetailActivity">
 
     <ImageView
@@ -19,8 +20,9 @@
         android:id="@+id/detailText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/detailImage"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"
         android:text="Detail Text"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 </RelativeLayout>
